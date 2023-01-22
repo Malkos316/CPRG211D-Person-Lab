@@ -29,7 +29,7 @@ namespace CPRG211DPersonLab
             this.id =           id;
             this.firstName =    firstName;
             this.lastName =     lastName;
-            Age =              age;
+            Age =               age;
             FavoriteColor =     favoriteColor;
             IsWorking =         isWorking;
         }
