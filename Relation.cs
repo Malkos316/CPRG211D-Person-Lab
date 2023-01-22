@@ -10,5 +10,8 @@ namespace CPRG211DPersonLab
     {
         //fields
         private string RelationshipType;
+
+        //properties
+        public string [] RelationshipName = new string [4] { "Mother", "Father", "Sister", "Brother" };
     }
 }
