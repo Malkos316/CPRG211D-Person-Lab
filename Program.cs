@@ -16,6 +16,7 @@ namespace CPRG211DPersonLab
             Person person4 = new Person(4, "Mary", "beals", 28, "Yellow", true);
 
             Console.WriteLine(person1.ToString());
+            Console.WriteLine(person2.GetAgeInTenYears());
             Console.WriteLine(person2.ToString());
             Console.WriteLine(person3.ToString());
             Console.WriteLine(person4.ToString());

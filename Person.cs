@@ -47,5 +47,12 @@ namespace CPRG211DPersonLab
 
             return formatted;
         }
+
+        public string GetAgeInTenYears()
+        {
+            string tenYears = firstName + " " + lastName + " " + "age in 10 years is: " + (age + 10);
+
+            return tenYears;
+        }
     }
 }
