@@ -26,12 +26,12 @@ namespace CPRG211DPersonLab
 
         public Person(int id, string firstName, string lastName, int age, string favoriteColor, bool isWorking)
         {
-            this.id =           id;
-            this.firstName =    firstName;
-            this.lastName =     lastName;
-            Age =               age;
-            FavoriteColor =     favoriteColor;
-            IsWorking =         isWorking;
+            Id =            id;
+            FirstName =     firstName;
+            LastName =      lastName;
+            Age =           age;
+            FavoriteColor = favoriteColor;
+            IsWorking =     isWorking;
         }
 
         public override string ToString()
