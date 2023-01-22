@@ -54,5 +54,19 @@ namespace CPRG211DPersonLab
 
             return tenYears;
         }
+
+        public string ChangeFavoriteColor()
+        {
+            string newFavoriteColor = (favoriteColor = "White");
+
+            return newFavoriteColor;
+        }
+
+        public string DisplayPersonInfo()
+        {
+            string info = id + ": " + firstName  + " " + lastName + "'s  favorite color is " + favoriteColor+ "\n";
+
+            return info;
+        }
     }
 }
