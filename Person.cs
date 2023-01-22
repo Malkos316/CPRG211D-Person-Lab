@@ -8,7 +8,7 @@ namespace CPRG211DPersonLab
 {
     internal class Person
     {
-        //fields
+        //Fields
         private int     id;
         private string  firstName;
         private string  lastName;
@@ -16,7 +16,7 @@ namespace CPRG211DPersonLab
         private string  favoriteColor;
         private bool    isWorking;
 
-        //properties
+        //Properties
         public int Id
         {
             get => id;
@@ -58,6 +58,7 @@ namespace CPRG211DPersonLab
             IsWorking =     isWorking;
         }
 
+        //Methods
         public override string ToString()
         {
             string formatted = "";
