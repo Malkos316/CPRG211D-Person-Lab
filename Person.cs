@@ -17,12 +17,36 @@ namespace CPRG211DPersonLab
         private bool    isWorking;
 
         //properties
-        public int      Id              {get => id; set => id = value; }
-        public string   FirstName       { get => firstName; set => firstName = value; }
-        public string   LastName        { get => lastName; set => lastName = value; }
-        public int      Age             { get => age; set => age = value; }
-        public string   FavoriteColor   { get => favoriteColor; set => favoriteColor = value; }
-        public bool     IsWorking       { get => isWorking; set => isWorking = value; }
+        public int Id
+        {
+            get => id;
+            set => id = value;
+        }
+        public string FirstName
+        {
+            get => firstName;
+            set => firstName = value;
+        }
+        public string LastName
+        {
+            get => lastName;
+            set => lastName = value;
+        }
+        public int Age
+        {
+            get => age;
+            set => age = value;
+        }
+        public string FavoriteColor
+        {
+            get => favoriteColor; 
+            set => favoriteColor = value;
+        }
+        public bool IsWorking
+        { 
+            get => isWorking; 
+            set => isWorking = value; 
+        }
 
         public Person(int id, string firstName, string lastName, int age, string favoriteColor, bool isWorking)
         {
