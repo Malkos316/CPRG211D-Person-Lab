@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CPRG211DPersonLab
 {
-    internal class Class1
+    internal class Relation
     {
+        //fields
+        private string RelationshipType;
     }
 }
