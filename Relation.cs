@@ -8,10 +8,14 @@ namespace CPRG211DPersonLab
 {
     internal class Relation
     {
-        //fields
+        //Fields
         private string RelationshipType;
 
-        //properties
+        //Properties
         public string [] RelationshipName = new string [4] { "Mother", "Father", "Sister", "Brother" };
+
+        //Methods
+        public string ShowRelationShip(Person);
+
     }
 }
