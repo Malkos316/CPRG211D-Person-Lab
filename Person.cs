@@ -68,7 +68,7 @@ namespace CPRG211DPersonLab
             formatted += "Last name: " + lastName + "\n";
             formatted += "FavoriteColor: " + favoriteColor + "\n";
             formatted += "Age: " + age + "\n";
-            formatted += "IsWorking: " + isWorking + "\n";
+            formatted += "IsWorking: " + isWorking;
 
             return formatted;
         }
@@ -89,7 +89,7 @@ namespace CPRG211DPersonLab
 
         public string DisplayPersonInfo()
         {
-            string info = id + ": " + firstName  + " " + lastName + "'s  favorite color is " + favoriteColor+ "\n";
+            string info = id + ": " + firstName  + " " + lastName + "'s  favorite color is " + favoriteColor;
 
             return info;
         }
