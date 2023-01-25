@@ -15,7 +15,7 @@ namespace CPRG211DPersonLab
         public string [] RelationshipName = new string [4] { "Mother", "Father", "Sister", "Brother" };
 
         //Methods
-        public string ShowRelationShip(Person);
+        //public string ShowRelationShip(Person);
 
     }
 }
