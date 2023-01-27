@@ -15,10 +15,10 @@ namespace CPRG211DPersonLab
             Person person3 = new Person(3, "Mike", "Briscoe", 45, "Blue", true);
             Person person4 = new Person(4, "Mary", "beals", 28, "Yellow", true);
 
-            Console.WriteLine(person2.DisplayPersonInfo());
+            Console.WriteLine(person2.DisplayFavoriteColor());
             Console.WriteLine(person3.ToString());
             person1.ChangeFavoriteColor();
-            Console.WriteLine(person1.DisplayPersonInfo());
+            Console.WriteLine(person1.DisplayFavoriteColor());
             Console.WriteLine(person4.GetAgeInTenYears());
             Console.ReadLine();
         }

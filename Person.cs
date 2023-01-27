@@ -64,7 +64,7 @@ namespace CPRG211DPersonLab
             return newFavoriteColor;
         }
 
-        public string DisplayPersonInfo()
+        public string DisplayFavoriteColor()
         {
             string info = id + ": " + firstName  + " " + lastName + "'s favorite color is " + favoriteColor;
 
