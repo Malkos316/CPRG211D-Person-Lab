@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,36 +18,12 @@ namespace CPRG211DPersonLab
         private bool    isWorking;
 
         //Properties
-        public int Id
-        {
-            get => id;
-            set => id = value;
-        }
-        public string FirstName
-        {
-            get => firstName;
-            set => firstName = value;
-        }
-        public string LastName
-        {
-            get => lastName;
-            set => lastName = value;
-        }
-        public int Age
-        {
-            get => age;
-            set => age = value;
-        }
-        public string FavoriteColor
-        {
-            get => favoriteColor; 
-            set => favoriteColor = value;
-        }
-        public bool IsWorking
-        { 
-            get => isWorking; 
-            set => isWorking = value; 
-        }
+        public int Id {get => id; set => id = value;}
+        public string FirstName {get => firstName; set => firstName = value;}
+        public string LastName {get => lastName; set => lastName = value;}
+        public int Age {get => age; set => age = value;}
+        public string FavoriteColor {get => favoriteColor; set => favoriteColor = value;}
+        public bool IsWorking {get => isWorking; set => isWorking = value;}
 
         public Person(int id, string firstName, string lastName, int age, string favoriteColor, bool isWorking)
         {
@@ -89,7 +66,7 @@ namespace CPRG211DPersonLab
 
         public string DisplayPersonInfo()
         {
-            string info = id + ": " + firstName  + " " + lastName + "'s  favorite color is " + favoriteColor;
+            string info = id + ": " + firstName  + " " + lastName + "'s favorite color is " + favoriteColor;
 
             return info;
         }
