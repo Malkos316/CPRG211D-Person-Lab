@@ -9,7 +9,7 @@ namespace CPRG211DPersonLab
 {
     internal class Person
     {
-        //Fields
+        //Fields should always be private
         private int     id;
         private string  firstName;
         private string  lastName;
@@ -36,7 +36,9 @@ namespace CPRG211DPersonLab
         }
 
         //Methods
-        public override string ToString()
+
+        
+        public string DisplayPersonInfo()
         {
             string formatted = "";
 
